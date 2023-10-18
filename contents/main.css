@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.center {
+    margin: auto;
+    width: 24%;
+    padding: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-right: 30px;
+}
+
+label {
+    text-align: center;
+}
+
+#hint {
+    margin-left: 50px;
+}
+
+input {
+    width: 150px;
+    padding: 5px;
+    margin-left: 130px;
+}
+
+button {
+border: 2px solid;
+border-radius: 5px;
+border-color: white, solid;
+
+background-color: black;
+color: white;
+
+width: 165px;
+padding: 5px;
+margin-left: 130px;
+
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contents/main.css">
+    <title>TP - jQuery</title>
+</head>
+<body>
+    <div class="center">
+    <h1>Devinez le Nombre</h1>
+    <form id="guessForm">
+        <label for="userGuess">Entrez un nombre entre 0 et 100 sur le champs ci-dessous.</label>
+            <br>
+        <input type="number" id="userGuess" min="0" max="100" required>
+            <br> <br>
+        <button type="submit">Jouer</button>
+    </form>
+        <div id="hint"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="contents/script.js"></script>
+</body>
+</html>
